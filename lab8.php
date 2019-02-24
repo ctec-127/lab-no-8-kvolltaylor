@@ -13,12 +13,13 @@
 </head>
 <body>
 
-<div class="container">	
+<!-- FUNCTIONS TO CONVERT TEMPS -->
+<?php require "inc/functions.inc.php"; ?>
 
+<div class="container">	
+	
 	<!-- NAV BAR -->
 	<?php require "inc/nav.inc.php"; ?>
-	<!-- FUNCTIONS TO CONVERT TEMPS -->
-	<?php require "inc/functions.inc.php"; ?>
 	<!-- CONTENT -->
 	<?php require "inc/content.inc.php"; ?>
 	<!-- FOOTER -->
