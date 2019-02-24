@@ -1,7 +1,8 @@
 	<!-- headings -->
     <div class="row">
-			<div class="col-12">
-				<h1 class="text-center font-weight-bold text-uppercase mt-4 py-4 border-5 jumbotron">Temperature Converter</h1>
+			<!-- BRUCE REWORKED THIS. REMOVED JUMBOTRON CLASS. MOVED CLASSES FROM H1 TO DIV -->
+			<div class="col-12 border-5 my-5 p-4 border-5 bg-info">
+				<h1 class="text-center font-weight-bold text-uppercase">Temperature Converter</h1>
 			</div>
 		</div>
 		<div class="row">
@@ -28,7 +29,7 @@
 		<div class="row">
 			<!-- jumbotron -->
 			<div class="col-xl-6 col-lg-5 col-md-6">
-				<div class="jumbotron pt-4 pb-4 border-5 d-none d-lg-block">
+				<div class="jumbotron pt-4 pb-4 border-5">
 					<h4>This form will convert any temperture!</h4>
 					<div class="row">
 						<div class="col-6">
@@ -102,9 +103,9 @@
         <!-- row with formulas and scale info -->
 		<div class="row">
 			<!-- begin div with formula table -->
-			<div class="col-lg-6 col-md-12 border-5 p-3">
+			<div class="col-lg-6 col-md-12">
                 <div class="table">
-                    <table class="table table-striped table-sm">
+                    <table class="table table-striped table-sm border-5 p-4">
                         <thead class="table-success">
                             <tr>
                             <th scope="col">Scales</th>
@@ -141,7 +142,7 @@
                 </div>
 			</div> <!-- end div with formula table -->
 			<!-- div with scale info -->
-			<div class="col-lg-6 col-md-12 border-5 p-4 d-none d-sm-block">
+			<div class="col-lg-6 col-md-12 border-5 p-4">
 				<h4>A Wee Bit About the People Behind the Scales</h4>
 				<div class="row alert-info py-2 mb-2">
 						<div class="col-3">
@@ -151,7 +152,7 @@
 						<p>The Celsius scale was created by Anders Celsius a Swedish astronomer, physicist and mathematician, who was born in Uppsala‎, Sweden in 1701.</p>
 						</div>
 				</div>
-				<div class="row alert-success py-2 mb-2">
+				<div class="row alert-success mb-2">
 					<div class="col-3">
 						<img src="img/fahrenheit.jpg" class="rounded-circle" alt="Daniel Fahrenheit">
 					</div>
