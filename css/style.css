@@ -10,3 +10,94 @@ body {
 th a:link, th a:visited, th a:hover, th a:active {
     color: #ffffff;
 }
+
+
+.btn {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.5), rgba(255,255,255,0.2) 49%, rgba(0,0,0,0.15) 51%, rgba(0,0,0,0.05));
+    background-repeat: repeat-x;
+}
+
+.border-3 {
+    border-left: 3px;
+    border-right: 3px;
+    border-top: 0;
+    border-bottom: 0;
+    border-color: #cccccc;
+    border-style: solid;
+}
+
+.border-5 {
+    border: 5px solid #17a2b8;
+    border-radius: 25px;
+}
+
+.border-5b {
+    border: 5px solid #5cb85c;
+    border-radius: 25px;
+}
+
+input:focus#originaltemp {
+    border-color: #5cb85c !important;
+    box-shadow: 0 0 10px #5cb85c !important;
+}
+
+input:active#originaltemp {
+    border-color: #5cb85c !important;
+    box-shadow: 0 0 10px #5cb85c !important;
+}
+
+input:focus#convertedtemp {
+    border-color: transparent !important;
+    box-shadow: 0 0 0 transparent !important;
+}
+
+input:active#convertedtemp {
+    border-color: #5cb85c !important;
+    box-shadow: 0 0 5px #5cb85c !important;
+}
+
+.p-5 {
+    padding-top:5em;
+    padding-bottom: 0;
+}
+
+.table {
+    border-collapse: separate; 
+    border-spacing: 5px inherit !important;
+    table-layout: auto;
+}
+
+
+.table-sm td, .table-sm th {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.table th {
+    border-top:0px;
+}
+
+th:first-child {
+    border-radius: 15px 0 0 0;
+}
+
+th:last-child {
+    border-radius: 0 15px 0 0;
+}
+
+th:only-child{
+    border-radius: 15px 15px 0 0;
+}
+
+.alert-info {
+    border-radius: 20px;
+}
+
+.alert-success {
+    border-radius: 20px;
+}
+
+.pulldownright {
+    padding: 0 1em 1em 0;
+    float: right;
+}
