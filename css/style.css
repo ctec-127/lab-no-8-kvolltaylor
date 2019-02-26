@@ -63,7 +63,7 @@ input:active#convertedtemp {
 
 .table {
     border-collapse: separate; 
-    border-spacing: 5px inherit !important;
+    border-spacing: 5px inherit;
     table-layout: auto;
 }
 

@@ -1,9 +1,9 @@
 	<!-- headings -->
     <div class="row">
-			<div class="col-12">
-				<h1 class="text-center font-weight-bold text-uppercase mt-4 py-4 border-5 jumbotron">Temperature Converter</h1>
-			</div>
+		<div class="col-12">
+			<h1 class="text-center font-weight-bold text-uppercase my-4 py-4 border-5">Temperature Converter</h1>
 		</div>
+	</div>
 		<div class="row">
 			<div class="d-none d-lg-block mx-auto">
 				<div class="mx-auto mb-4">
@@ -27,8 +27,8 @@
 		<!-- row with jumbotron and conversion form -->
 		<div class="row">
 			<!-- jumbotron -->
-			<div class="col-xl-6 col-lg-5 col-md-6">
-				<div class="jumbotron pt-4 pb-4 border-5 d-none d-lg-block">
+			<div class="col-xl-6 col-lg-5 col-md-6 d-none d-md-block">
+				<div class="jumbotron pt-4 pb-4 border-5">
 					<h4>This form will convert any temperture!</h4>
 					<div class="row">
 						<div class="col-6">
@@ -102,9 +102,9 @@
         <!-- row with formulas and scale info -->
 		<div class="row">
 			<!-- begin div with formula table -->
-			<div class="col-lg-6 col-md-12 border-5 p-3">
+			<div class="col-lg-6 col-md-12">
                 <div class="table">
-                    <table class="table table-striped table-sm">
+                    <table class="table table-striped table-sm p-5 border-5">
                         <thead class="table-success">
                             <tr>
                             <th scope="col">Scales</th>
