@@ -104,7 +104,7 @@
 			<!-- begin div with formula table -->
 			<div class="col-lg-6 col-md-12">
                 <div class="table">
-                    <table class="table table-striped table-sm p-5 border-5">
+                    <table class="table table-striped table-sm border-5 p-4">
                         <thead class="table-success">
                             <tr>
                             <th scope="col">Scales</th>
@@ -141,7 +141,7 @@
                 </div>
 			</div> <!-- end div with formula table -->
 			<!-- div with scale info -->
-			<div class="col-lg-6 col-md-12 border-5 p-4 d-none d-sm-block">
+			<div class="col-lg-6 col-md-12 border-5 p-4">
 				<h4>A Wee Bit About the People Behind the Scales</h4>
 				<div class="row alert-info py-2 mb-2">
 						<div class="col-3">
@@ -151,7 +151,7 @@
 						<p>The Celsius scale was created by Anders Celsius a Swedish astronomer, physicist and mathematician, who was born in Uppsala‎, Sweden in 1701.</p>
 						</div>
 				</div>
-				<div class="row alert-success py-2 mb-2">
+				<div class="row alert-success mb-2">
 					<div class="col-3">
 						<img src="img/fahrenheit.jpg" class="rounded-circle" alt="Daniel Fahrenheit">
 					</div>
